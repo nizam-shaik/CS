@@ -9,6 +9,15 @@
             "command": "bash .claude/hooks/tool_call_logger.sh"
           }
         ]
+      },
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash .claude/hooks/block_dangerous_commands.sh"
+          }
+        ]
       }
     ]
   }

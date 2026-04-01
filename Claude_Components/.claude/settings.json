@@ -18,6 +18,15 @@
             "command": "bash .claude/hooks/block_dangerous_commands.sh"
           }
         ]
+      },
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash .claude/hooks/protect_sensitive_files.sh"
+          }
+        ]
       }
     ]
   }

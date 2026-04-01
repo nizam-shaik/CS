@@ -1,2 +1,4 @@
 CLAUDE.local.md
 .claude/settings.local.json
+.claude/logs/tool_calls.log
+
